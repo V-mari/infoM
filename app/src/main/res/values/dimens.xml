@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="EditText_textSize"></dimen>
+    <dimen name="EditText_textSize">20sp</dimen>
     <dimen name="login_horizontalMargin">40dp</dimen>
     <dimen name="login_marginTop">20dp</dimen>
+    <dimen name="imageView_layoutHeight">150dp</dimen>
+    <dimen name="textView_TextSize">20sp</dimen>
 </resources>

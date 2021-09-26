@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="button_text">LOGIN</string>
+    <string name="no_tienes_una_cuenta">"¿No tienes una cuenta?, "</string>
+    <string name="crea_una_aqui">Crea una aqui</string>
 </resources>
