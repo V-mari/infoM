@@ -2,4 +2,6 @@
     <string name="app_name">Infogram</string>
     <string name="nombre_de_usuario">Nombre de Usuario</string>
     <string name="contraseña">Contraseña</string>
+    <string name="button_text">LOGIN</string>
+
 </resources>

@@ -9,7 +9,13 @@
 <color name="colorSecondary">#880e4f</color>
 <color name="colorSecondaryLight">#bc477b</color>
 <color name="colorSecondaryDark">#560027</color>
-<color name="colorPrimaryText">#000000</color>
-<color name="colorSecondaryText">#ffffff</color>
+
 <color name="colorAccent">#ff4081</color>
+
+    <color name="editText_TextColorHint">#ffffff</color>
+    <color name="editText_textColorPrimary">#ffffff</color>
+    <color name="editText_colorControlNormal">#ffffff</color>
+    <color name="editText_colorControlActivated">#ffffff</color>
+
+    <color name="button_TextColor">#ffffff</color>
 </resources>
