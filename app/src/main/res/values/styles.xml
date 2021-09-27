@@ -10,7 +10,7 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
     <style name="EditTextWhite" parent="Theme.AppCompat.Light">
-        <item name="android:textSize">@dimen/EditText_textSize</item>
+        <item name="android:textSize">@dimen/editText_textSize</item>
         <item name="android:textColorHint">@color/editText_White</item>
         <item name="android:textColorPrimary">@color/editText_White</item>
         <item name="colorControlNormal">@color/editText_White</item>
@@ -19,7 +19,7 @@
     </style>
 
     <style name="EditTextBlack" parent="Theme.AppCompat.Light">
-        <item name="android:textSize">@dimen/EditText_textSize</item>
+        <item name="android:textSize">@dimen/editText_textSize</item>
         <item name="android:textColorHint">@color/editText_Black</item>
         <item name="android:textColorPrimary">@color/editText_Black</item>
         <item name="colorControlNormal">@color/editText_Black</item>

@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <dimen name="EditText_textSize">20sp</dimen>
+    <dimen name="editText_textSize">20sp</dimen>
     <dimen name="login_horizontalMargin">40dp</dimen>
     <dimen name="login_marginTop">20dp</dimen>
-    <dimen name="imageView_layoutHeight">150dp</dimen>
-    <dimen name="textView_TextSize">20sp</dimen>
+    <dimen name="imageView_layout">150dp</dimen>
+    <dimen name="textView_textSize">15sp</dimen>
     <dimen name="padding_create_account">40dp</dimen>
-    <dimen name="marginTop_create_account">35dp</dimen>
-    <dimen name="height_cardvew">250dp</dimen>
-    <dimen name="corner_radius_cardview">20dp</dimen>
+    <dimen name="login_marginTop_Create_account">30dp</dimen>
+    <dimen name="height_cardview">250dp</dimen>
+    <dimen name="corner_radius_cardview">10dp</dimen>
     <dimen name="margin_cardview">10dp</dimen>
     <dimen name="padding_cardview">10dp</dimen>
+    <dimen name="paddingBottom_container">10dp</dimen>
+    <dimen name="height_bottom_navigation_view">70dp</dimen>
+    <dimen name="margin_fab">20dp</dimen>
+    <dimen name="padding_card">10dp</dimen>
+    <dimen name="heigth_image_detail">300dp</dimen>
+    <dimen name="textView_username_image_detail">20sp</dimen>
+    <dimen name="marginTop_image_detail">20dp</dimen>
+    <dimen name="textSize_megusta_image_detail">14sp</dimen>
+    <dimen name="marginleft_image_megusta_image_detail">5dp</dimen>
+    <dimen name="height_divider_image_detail">2dp</dimen>
+    <dimen name="textSize_title_image_detail">16sp</dimen>
+    <dimen name="padding_top_title_image_detail">25dp</dimen>
+    <dimen name="marginEnd_fab_image_detail">20dp</dimen>
+    <dimen name="paddingTop_linearlayout_profile">200dp</dimen>
+    <dimen name="padding_bottom_linearlayout_profile">20dp</dimen>
+    <dimen name="textSize_username_profile">30dp</dimen>
+    <dimen name="size_circle_image_profile">50dp</dimen>
+    <dimen name="marginTop_image_profile">55dp</dimen>
+    <dimen name="elevation_circle_iamge_profile">10dp</dimen>
+    <dimen name="target_circle_image_profile">10dp</dimen>
+    <dimen name="targetSize_circle_image_profile">40dp</dimen>
+    <dimen name="textSize_circle_username_appbar_profile">18sp</dimen>
+    <dimen name="elevation_username_appbar_profile">10dp</dimen>
+    <dimen name="marginLeft_username_appbar_profile">70dp</dimen>
+    <dimen name="marginTop_username_appbar_profile">-100dp</dimen>
+    <dimen name="dependsTargetY_username_appbar_profile">-250dp</dimen>
+    <dimen name="target_username_appbar_profile">30dp</dimen>
+    <dimen name="dependsTargetY_circle_image_profile">-100dp</dimen>
 </resources>

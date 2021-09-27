@@ -1,5 +1,4 @@
-package com.ruth.myapplication;
-
+package com.ruth.myapplication.view;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,11 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.ruth.myapplication.view.R;
+import com.ruth.myapplication.R;
 import com.ruth.myapplication.view.fragment.HomeFragment;
 import com.ruth.myapplication.view.fragment.ProfileFragment;
 import com.ruth.myapplication.view.fragment.SearchFragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class ContainerActivity extends AppCompatActivity {
 
@@ -27,7 +26,6 @@ public class ContainerActivity extends AppCompatActivity {
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         Fragment selectedFragment = null;
-
                         switch (item.getItemId()){
                             case R.id.search:
                                 selectedFragment = new SearchFragment();
@@ -42,12 +40,14 @@ public class ContainerActivity extends AppCompatActivity {
 
                         getSupportFragmentManager()
                                 .beginTransaction()
-                                .replace(R.id.container_frame, selectedFragment)
+                                .replace(R.id.container_frame,selectedFragment)
                                 .commit();
 
                         return true;
                     }
                 }
+
         );
+
     }
 }
