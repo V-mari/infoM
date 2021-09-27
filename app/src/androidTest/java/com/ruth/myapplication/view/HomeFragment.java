@@ -1,6 +1,9 @@
 package com.ruth.myapplication.view;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -8,14 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
-
 import com.ruth.myapplication.R;
-import com.ruth.myapplication.adapter.CardViewAdapter;
-import com.ruth.myapplication.adapter.CardViewAdapter;
 import com.ruth.myapplication.model.Image;
 
 import java.util.ArrayList;
@@ -25,7 +21,7 @@ import java.util.ArrayList;
  * Use the {@link HomeFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment<CardViewAdapter> extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -79,7 +75,7 @@ public class HomeFragment extends Fragment {
         LinearLayoutManager linearLayoutManager= new LinearLayoutManager(getContext());
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
-        CardViewAdapter cardviewAdapter=new CardViewAdapter(buidImages(),R.layout.cardview_image,getActivity());
+        CardViewAdapter cardviewAdapter = new CardViewAdapter(buidImages(), R.layout.cardview_image, getActivity());
         recyclerView.setAdapter(cardviewAdapter);
         return view;
 
@@ -92,7 +88,7 @@ public class HomeFragment extends Fragment {
     }
     public ArrayList<Image>buidImages(){
         ArrayList<Image> images = new ArrayList<>();
-        images.add(new Image("https://images.wallpaperscraft.com/image/single/fox_stick_autumn_221120_1280x720.jpg","Carlos","1","2"));
+        images.add(new Image("https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.escuelacarmenvega.com%2Fsite%2Findex.php%2Fes%2Fcochabamba%2Fturismo-cochabamba&psig=AOvVaw2nXc1xmMtl9taQWFi_ISaf&ust=1632799739536000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCIDJhZmbnvMCFQAAAAAdAAAAABAD","Juan","6","2"));
         images.add(new Image("https://images.wallpaperscraft.com/image/single/fox_stick_autumn_221120_1280x720.jpg","Victor","2","5"));
         images.add(new Image("https://images.wallpaperscraft.com/image/single/fox_stick_autumn_221120_1280x720.jpg","Andres","4","10"));
         images.add(new Image("https://images.wallpaperscraft.com/image/single/fox_stick_autumn_221120_1280x720.jpg","Carla","3","20"));
