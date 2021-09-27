@@ -1,16 +1,16 @@
-package com.ruth.myapplication.view;
-
-import androidx.appcompat.app.AppCompatActivity;
-package com.example.infogram;
+package com.ruth.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
-import com.ruth.myapplication.view.ContainerActivity;
-import com.ruth.myapplication.view.CreateAccountActivity;
+
+        import androidx.appcompat.app.AppCompatActivity;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.view.View;
+        import com.ruth.myapplication.R;
+        import com.ruth.myapplication.ContainerActivity;
 
 public class LoginActivity extends AppCompatActivity {
 

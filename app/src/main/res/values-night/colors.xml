@@ -2,4 +2,5 @@
 <resources>
     <color name="background_cardview">#33000000</color>
     <color name="textColor_white">#DFF8EC</color>
+    <color name="item_white">#ffffff</color>
 </resources>

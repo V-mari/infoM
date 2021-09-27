@@ -1,17 +1,18 @@
-package com.ruth.myapplication.view;
+package com.ruth.myapplication;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 
-import android.os.Bundle;
-import android.view.MenuItem;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import com.ruth.myapplication.R;
-import com.ruth.myapplication.view.fragment.HomeFragment;
-import com.ruth.myapplication.view.fragment.ProfileFragment;
-import com.ruth.myapplication.view.fragment.SearchFragment;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+        import androidx.annotation.NonNull;
+        import androidx.appcompat.app.AppCompatActivity;
+        import androidx.fragment.app.Fragment;
+        import android.os.Bundle;
+        import android.view.MenuItem;
+        import com.ruth.myapplication.R;
+        import com.ruth.myapplication.view.fragment.HomeFragment;
+        import com.ruth.myapplication.view.fragment.ProfileFragment;
+        import com.ruth.myapplication.view.fragment.SearchFragment;
+        import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class ContainerActivity extends AppCompatActivity {
 
@@ -51,3 +52,4 @@ public class ContainerActivity extends AppCompatActivity {
 
     }
 }
+

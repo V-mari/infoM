@@ -1,11 +1,12 @@
-package com.ruth.myapplication.view;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+package com.ruth.myapplication;
 
-import android.os.Bundle;
+        import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.widget.Toolbar;
 
-import com.ruth.myapplication.R;
+        import android.os.Bundle;
+
+        import com.ruth.myapplication.R;
 
 public class CreateAccountActivity extends AppCompatActivity {
 
@@ -22,3 +23,8 @@ public class CreateAccountActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(botonSubir);
     }
 }
+
+
+
+
+
