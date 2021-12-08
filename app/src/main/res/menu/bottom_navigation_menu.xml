@@ -9,5 +9,4 @@
     <item android:id="@+id/profile"
         android:title="@string/yo_item"
         android:icon="@drawable/ic_user"/>
-
 </menu>

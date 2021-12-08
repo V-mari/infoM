@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/drawable/checkbox_selector.xml" value="0.1" />
         <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12407407407407407" />
-        <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_container.xml" value="0.225" />
-        <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_create_account.xml" value="0.1721014492753623" />
+        <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_container.xml" value="0.1" />
+        <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_create_account.xml" value="0.25" />
+        <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_create_account2.xml" value="0.225" />
+        <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_image_detail.xml" value="0.16" />
         <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/activity_main.xml" value="0.1693840579710145" />
         <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/layout/appbar_toolbar.xml" value="0.14266304347826086" />

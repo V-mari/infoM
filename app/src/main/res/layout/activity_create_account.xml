@@ -1,106 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CreateAccountActivity">
+    tools:context=".view.CreateAccountActivity">
 
-        <include layout="@layout/appbar_toolbar"/>
-        <ScrollView
+    <include layout="@layout/appbar_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fillViewport="true">
-            <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/padding_create_account">
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="40dp"
-                android:orientation="vertical">
-                <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/marginTop_create_account">
+
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/marginTop_create_account"
-                    android:theme="@style/EditTextBlack">
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/correo">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/correo"
-                        android:inputType="textEmailAddress">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/marginTop_create_account">
 
-                    </com.google.android.material.textfield.TextInputEditText>
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/marginTop_create_account"
-                    android:theme="@style/EditTextBlack">
+                    android:inputType="text"
+                    android:hint="@string/nombre">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/nombre"
-                        android:inputType="text">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/marginTop_create_account">
 
-                    </com.google.android.material.textfield.TextInputEditText>
-                </com.google.android.material.textfield.TextInputLayout>
-
-
-
-                <com.google.android.material.textfield.TextInputLayout
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/marginTop_create_account"
-                    android:theme="@style/EditTextBlack">
+                    android:inputType="text"
+                    android:hint="@string/usuario">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/usuario"
-                        android:inputType="text">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/marginTop_create_account">
 
-                    </com.google.android.material.textfield.TextInputEditText>
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/marginTop_create_account"
-                    android:theme="@style/EditTextBlack">
+                    android:inputType="textPassword"
+                    android:hint="@string/contrasenia">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/contraseña"
-                        android:inputType="textPassword">
 
-                    </com.google.android.material.textfield.TextInputEditText>
-                </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/marginTop_create_account">
 
-                <com.google.android.material.textfield.TextInputLayout
+                <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/marginTop_create_account"
-                    android:theme="@style/EditTextBlack">
+                    android:inputType="text"
+                    android:hint="@string/confirme_contrasenia">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/confirme_contraseña"
-                        android:inputType="textPassword">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginTop="@dimen/marginTop_create_account"
+                android:text="@string/button_text_create_account"
+                android:textAlignment="center"
+                android:textSize="@dimen/login_marginTop"
+                android:theme="@style/RaiseButtonDark" />
 
-                    </com.google.android.material.textfield.TextInputEditText>
-                </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
 
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/marginTop_create_account"
-                    android:text="@string/button_text_create_account"
-                    android:theme="@style/RaiseButtonDark"
-                    />
-            </LinearLayout>
-        </ScrollView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
