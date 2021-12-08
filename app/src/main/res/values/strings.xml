@@ -1,29 +1,30 @@
 <resources>
-    <string name="app_name">Infogram</string>
-    <string name="nombre_de_usuario">Nombre de Usuario</string>
-    <string name="contrasenia">Contraseña</string>
+
+    <string name="app_name">ArMyWhy</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
     <string name="button_text">LOGIN</string>
-    <string name="no_tienes_cuenta">"¿No tienes Cuenta?, "</string>
-    <string name="crear_una_aqui">crear una aqui</string>
+    <string name="no_tienes_cuenta">"¿No tienes cuenta?, "</string>
+    <string name="crea_una_aqui">crea una aqui</string>
     <string name="correo">Correo</string>
     <string name="nombre">Nombre</string>
     <string name="usuario">Usuario</string>
     <string name="confirme_contrasenia">Confirme contraseña</string>
-    <string name="button_text_create_account">Únete</string>
+    <string name="button_text_create_account">ÚNETE</string>
     <string name="title_crear_cuenta">Crear Cuenta</string>
-    <string name="monica_galindo_cardview" translatable="false">Monica Galindo</string>
-    <string name="dias_cardview">" 4 dias"</string>
-    <string name="hace_cardview">Hace</string>
-    <string name="me_gusta_cardview">10 me gusta</string>
+    <string name="kevin_salasar_cardview">Kevin Salasar</string>
+    <string name="hace_cardview">Hace </string>
+    <string name="dias_cardview">  4 dias</string>
+    <string name="me_gusta_cardview">  10 me gusta</string>
     <string name="buscar_item">Buscar</string>
     <string name="home_item">Home</string>
     <string name="yo_item">Yo</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_home_fragment">Home</string>
     <string name="text_megusta_image_detail">me gusta</string>
     <string name="text_cantidad_megusta_image_detail">10</string>
-    <string name="text_title_image_detail" translatable="false">\"En festivales por el mundo\"</string>
-    <string name="text_content_image_detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="transitionName_imageCardview" translatable="false">transitionName_imageCardview</string>
+    <string name="text_title_image_detail">"Todos copas en la playa"</string>
+    <string name="text_content_image_detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="transitionName_imageCardView">transitionName_imageCardView</string>
 </resources>

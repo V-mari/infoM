@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Infogram</string>
     <string name="nombre_de_usuario">Nom d\'utilisateur</string>
-    <string name="contrasenia">Mot de passe</string>
+    <string name="contrasena">Mot de passe</string>
     <string name="button_text">LOGIN</string>
     <string name="no_tienes_cuenta">"Vous n'avez pas de compte ?, "</string>
     <string name="crear_una_aqui">Créez-en un ici</string>
     <string name="correo">Courrier</string>
     <string name="nombre">Nom</string>
     <string name="usuario">Utilisateur</string>
-    <string name="confirme_contraseña">Confirmez le mot de passe</string>
+    <string name="confirme_contrasenia">Confirmez le mot de passe</string>
     <string name="button_text_create_account">Rejoindre</string>
     <string name="title_crear_cuenta">Créer un compte</string>
     <string name="Amy_Lee_cardview">Amy Lee</string>

@@ -22,6 +22,18 @@
         <entry key="..\:/disp. moviles/3p/InfoM/infoM/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.17604166666666668" />
         <entry key="..\:/disp. moviles/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.225" />
         <entry key="..\:/disp. moviles/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/drawable/checkbox_selector.xml" value="0.22314814814814815" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/activity_container.xml" value="0.1" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/activity_create_account.xml" value="0.1" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/activity_image_detail.xml" value="0.1" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/appbar_toolbar.xml" value="0.1" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/bottom_navigation_view.xml" value="0.1" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/cardview_image.xml" value="0.225" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/fragment_home.xml" value="0.225" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/fragment_profile.xml" value="0.225" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/layout/fragment_search.xml" value="0.225" />
+        <entry key="..\:/disp. moviles/infoM/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.225" />
       </map>
     </option>
   </component>
